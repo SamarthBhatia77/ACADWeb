@@ -1,7 +1,8 @@
 body{
 	margin: 0;
 	padding: 0;
-	background-color: #8886c5;
+	background-color: #4b4b57;
+	color: white;
 }
 h1 {
 	background-color: black;
@@ -51,7 +52,7 @@ header {
 	color: white;
 }
 .navbar a:hover {
-	color: red;
+	color: #00fe11;
 	transition: 0.3s ease;
 }
 .intro {
@@ -59,8 +60,11 @@ header {
 	font-family: helvetica;
 	font-size: 1.2em;
 	margin-top: 40px;
+	background-color: #4b4b57;
 }
-
+.intro li {
+	list-style-type:none;
+}
 .box {
 	text-align: center;
 	border: solid black;
@@ -93,27 +97,44 @@ header {
 }
 .list a:hover {
 	color: red;
-	transition: 0.3s ease;
+	transition: 0.2s ease;
 }
-.list ul li:nth-child(even) {
-	background-color: #a1a3a6;
+.list ul li:nth-child(3n+1) {
+	background-color: #ffa9a9;
 	color: white;
+	list-style-type: none;
 }
-.list ul li:nth-child(even) a {
-	color: white;
+.list ul li:nth-child(3n+2) {
+	background-color: #f9ee7a;
+	color: black;
+	list-style-type: none;
 }
-.list ul li:nth-child(odd) a{
+.list ul li:nth-child(3n) {
+	background-color: #a9f3ff;
+	color: black;
+	list-style-type: none;
+}
+.list ul li:nth-child(3n+1) a {
 	color: black;
 }
-.list ul li:nth-child(even) a:hover {
-	color: red;
-	transition: 0.3s ease;
+.list ul li:nth-child(3n+2) a{
+	color: black;
 }
-.list ul li:nth-child(odd) a:hover {
-	color: red;
-	transition: 0.3s ease;
+.list ul li:nth-child(3n) a{
+	color: black;
 }
-
+.list ul li:nth-child(3n+1) a:hover {
+	color: #06810e;
+	transition: 0.2s ease;
+}
+.list ul li:nth-child(3n+2) a:hover {
+	color: #06810e;
+	transition: 0.2s ease;
+}
+.list ul li:nth-child(3n) a:hover {
+	color: #06810e;
+	transition: 0.2s ease;
+}
 .footer {
 	padding-bottom: 10px;
 	background-color:#6d6f73 ;
@@ -127,4 +148,3 @@ header {
 	padding-top: 7px;
 	color: white;
 }
-
