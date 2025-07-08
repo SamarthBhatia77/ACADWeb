@@ -10,7 +10,7 @@ body {
   background-attachment: fixed;
 }
 #container {
-  border: solid white;
+  /*border: solid white;*/
   border-radius: 10px;
   width: 40%;
   max-width: 600px;
@@ -18,3 +18,12 @@ body {
   padding: 1.5rem;
   text-align: center;
 }
+/*#Messagebg {
+  font-family:mono;
+  margin: 0;
+  background-image: url(./gradpic.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}*/
