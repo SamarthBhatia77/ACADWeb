@@ -19,14 +19,14 @@ export default function Home() {
     <>
       {intro? (
         <div id="Messagebg" className="fixed inset-0  backdrop-blur-md flex items-center justify-center z-50 transition-opacity duration-500">
-          <div id="container"className="flex flex-col items-center justify-center  text-center font-mono text-white bg-[#616161]">
-        <p className="text-[20px] my-3 font-bold">Like this project? Leave a star on Github!</p>
+          <div id="container" className="flex flex-col items-center justify-center  text-center font-mono text-white bg-[#616161]">
+        <p className="text-[20px] my-3 font-bold">Like this project? Leave a ⭐ on Github!</p>
         <ul>
-          <a href="https://github.com/SamarthBhatia77" target="_blank">
-            <li className="border border-[#f6e68d] bg-[#f3f213] rounded-[10px] text-black my-4 px-40 py-3 cursor-pointer transform transition duration-200 ease-in-out hover:scale-105"
+          <a href="https://github.com/SamarthBhatia77/ACADWeb" target="_blank">
+            <li className="border border-none bg-[#209fd5] rounded-[10px] text-white font-bold my-4 px-15 lg:px-40 py-3 cursor-pointer transform transition duration-200 ease-in-out hover:scale-105"
             onClick={()=>setIntro(false)}>
-              Star on GitHub</li></a>
-          <li className="border border-[#f96464] bg-[#f96464] rounded-[10px] text-black mb-7 px-40 py-3 cursor-pointer transform transition duration-200 ease-in-out hover:scale-105"
+              ✨Star on GitHub!✨</li></a>
+          <li className="border border-none bg-[#ea2222] rounded-[10px] text-white font-bold mb-7 px-20 lg:px-40 py-3 cursor-pointer transform transition duration-200 ease-in-out hover:scale-105"
           onClick={()=>setIntro(false)}>
             <Link href="">Continue to Site</Link></li>
         </ul>

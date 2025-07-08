@@ -10,13 +10,13 @@ body {
   background-attachment: fixed;
 }
 #container {
-  /*border: solid white;*/
   border-radius: 10px;
-  width: 40%;
-  max-width: 600px;
+  width: 90%;               /* Takes up 90% of the screen on mobile */
+  max-width: 600px;         /* Doesn't grow larger than 600px on big screens */
   margin: auto;
   padding: 1.5rem;
   text-align: center;
+  box-sizing: border-box; /* Includes padding inside width */
 }
 /*#Messagebg {
   font-family:mono;
