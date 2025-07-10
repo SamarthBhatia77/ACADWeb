@@ -11,7 +11,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className="min-h-screen flex flex-col">
-        <div className="fixed top-0 left-0 w-full z-50 backdrop-blur-md flex align-centers items-center justify-between mb-10">
+        <div className="fixed top-0 left-0 w-full z-50  backdrop-blur-md border-b-[1px] border-[#7B7B7B] flex align-centers items-center justify-between mb-10">
             <header className="backdrop-blur-md text-black text-[25px] lg:text-[2em] font-mono font-bold p-4">ACADWeb: Your go-to Study Place</header>
             <Link href="/"><HomeIcon className="h-6 w-6 text-black-600 mr-4"/></Link>
         </div>
