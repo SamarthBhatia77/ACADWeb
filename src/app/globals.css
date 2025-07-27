@@ -3,7 +3,7 @@ body {
   font-family:mono;
   margin: 0;
   /*background-color: #4b4b57;*/
-  background-image: url(./gradpic.jpg);
+  background-image: url(./bluegrad.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -27,3 +27,7 @@ body {
   background-size: cover;
   background-attachment: fixed;
 }*/
+::selection {
+  background-color:#57bcf4;  /* Highlight background color */
+  color: #000;                /* Text color when selected */
+}

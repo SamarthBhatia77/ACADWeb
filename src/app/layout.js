@@ -3,17 +3,24 @@ import Image from "next/image";
 import bitslogo from "./bitslogo.jpg";
 import Link from "next/link";
 import { HomeIcon } from '@heroicons/react/24/outline';
+import { StarIcon } from '@heroicons/react/24/solid';
 export const metadata = {
   title: "Acad Web | Study Companion",
   description: "Academic resources for BITSians",
+  icons: {
+    icon: "/favicon3.png",
+  },
 };
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className="min-h-screen flex flex-col">
-        <div className="fixed top-0 left-0 w-full z-50  backdrop-blur-md border-b-[1px] border-[#7B7B7B] flex align-centers items-center justify-between mb-10">
-            <header className="backdrop-blur-md text-black text-[25px] lg:text-[2em] font-mono font-bold p-4">ACADWeb: Your go-to Study Place</header>
+      <body className="min-h-screen flex flex-col bg-white/30">
+        <div className="fixed top-0 left-0 w-full bg-white/50 z-50 backdrop-blur-md border-white-[1px] border-[#7B7B7B] flex align-centers items-center justify-between mb-10">
+            <header className="text-black text-[20px] lg:text-[2em] font-mono font-bold p-4">ACADWeb: Your go-to Study Place</header>
+            <div className="flex gap-5">
             <Link href="/"><HomeIcon className="h-6 w-6 text-black-600 mr-4"/></Link>
+            <a href="https://github.com/SamarthBhatia77/ACADWeb" target="_blank"><StarIcon className="h-6 w-6 text-[#FFEA6B] mr-8" /></a>
+            </div>
         </div>
         <main className="flex-grow mt-45 lg:mt-30">
           {children}
