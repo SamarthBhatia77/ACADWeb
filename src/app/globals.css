@@ -28,6 +28,6 @@ body {
   background-attachment: fixed;
 }*/
 ::selection {
-  background-color:#57bcf4;  /* Highlight background color */
+  background-color:#A3ECFF;  /* Highlight background color */
   color: #000;                /* Text color when selected */
 }
