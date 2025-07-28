@@ -28,7 +28,7 @@ export default function RootLayout({ children }) {
         <footer className="font-sans text-black mt-21 bg-white">
           <p className="font-mono text-2xl font-bold ml-6 mt-5 mb-4"><Link href="/">ACADWeb</Link></p>
           <p className="ml-6 py-2 font-mono text-[#7D7D7D]">Tap into the shared rescources with ease and score a good CGPA with ACADWeb by your side</p>
-          <p className="ml-6 mb-2 font-mono text-[#7D7D7D] mt-6 mb-4">Credits: Rescources pulled from ACAD Drive and others , Website by : Samarth Bhatia</p>
+          <p className="ml-6 mb-2 font-mono text-[#7D7D7D] mt-6 mb-4">Credits: Rescources pulled from ACAD Drive and others</p>
           <hr className="w-1/2 border-t-2 border-black " />
           <p className="p-6 mt-0 text-[13px]">&copy; 2025 ACADWeb by Samarth Bhatia. All rights reserved.</p>
         </footer>
