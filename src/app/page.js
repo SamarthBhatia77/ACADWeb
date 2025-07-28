@@ -19,7 +19,7 @@ export default function Home() {
     <>
       
       <div id="container"className="flex flex-col items-center justify-center  text-center font-mono text-black bg-white">
-        <p className="text-[20px] my-3 font-bold">Select Your Year</p>
+        <p className="text-[20px] my-3 font-bold">Select  Year</p>
         <ul className="w-full">
           <li className="border border-[#8c8c8c] rounded-[10px]  my-4 lg:px-40  py-3 cursor-pointer hover:bg-[#d1d1d1] transition 0.4s ease">
             <Link href="/firstyr/grpselect">First year</Link></li>
