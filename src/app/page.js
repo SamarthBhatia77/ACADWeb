@@ -2,6 +2,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React, {useState, useEffect} from 'react';
+import TextType from './TextType';
 export default function Home() {
   const [intro,setIntro]=useState(true);
   /*useEffect(()=> {
@@ -17,7 +18,6 @@ export default function Home() {
 
   return(
     <>
-      
       <div id="container"className="flex flex-col items-center justify-center  text-center font-mono text-black bg-white">
         <p className="text-[20px] my-3 font-bold">Select  Year</p>
         <ul className="w-full">

@@ -5,9 +5,9 @@ export default function firstyr() {
       <p className="text-[20px] my-3 font-bold">Select Group</p>
       <ul className="w-full">
         <li className="border border-[#8c8c8c] rounded-[10px]  my-4 lg:px-40 py-3 cursor-pointer hover:bg-[#d1d1d1] transition 0.4s ease">
-          <Link href="/firstyr/semSelectGroup1">Group-1</Link></li>
+          <Link href="/firstyr/semSelectGroup1">Group-A</Link></li>
         <li className="border border-[#8c8c8c] rounded-[10px]  mb-3 lg:px-40 py-3 cursor-pointer hover:bg-[#d1d1d1] transition 0.4s ease">
-          <Link href="/firstyr/semSelectGroup2">Group-2</Link></li>
+          <Link href="/firstyr/semSelectGroup2">Group-B</Link></li>
       </ul>
     </div>
     );
